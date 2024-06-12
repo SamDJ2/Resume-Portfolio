@@ -2,6 +2,7 @@
     background-image: url('PortfolioBackground.webp');
     background-size: cover;
     background-position: center;
+    text-align: center;
     display: flex;
 }
 
@@ -13,22 +14,62 @@
     align-items: center;
 }
 
+.box {
+    transform: scale(0.5);
+    animation: growBox 2s forwards;
+}
+
+@keyframes growBox {
+    to {
+        transform: scale(1);
+    }
+}
+
+
 .heading {
     font-size: 4em;
     margin-bottom: 20px;
     color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.heading:hover{
+    transform: scale(1.1);
 }
 
 .paragraph {
     font-size: 1.5em;
     line-height: 1.6;
     color: #fff;
+    width: 30ch;
+    transition: transform 0.3s ease;
+}
+
+.paragraph:hover{
+    transform: scale(1.1);
 }
 
 .contactButton{
-    background-color: cornflowerblue;
+    background-color: white;
     padding: 10px;
     border-radius: 10px;
-    color: white;
+    color: black;
     text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 5px #2980b9;
+    position: relative;
+    display: inline-block;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.contactButton:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 8px #2980b9;
+}
+
+
+.contactButton:active {
+    transform: translateY(2px);
+    box-shadow: 0 3px #2980b9;
 }
