@@ -24,7 +24,9 @@ const Header = () => {
     return (
         <header className={`${styles.header} ${scrolled ? styles.scrolled : ''}`}>
             <nav className={styles.nav}>
+                <a href="#home" className={styles.logo}>Samuel Davies-Jelly</a>
                 <ul className={styles.ul}>
+
                     <li className={styles.li}>
                         <a
                             href="#about"

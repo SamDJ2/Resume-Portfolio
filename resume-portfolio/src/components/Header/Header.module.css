@@ -16,6 +16,14 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+.logo{
+    color: black;
+    margin-right: auto;
+    margin-left: 10px;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
 .nav {
     display: flex;
     justify-content: flex-end;
