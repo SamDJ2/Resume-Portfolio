@@ -1,6 +1,6 @@
 # Portfolio Website
 
-This is a simple portfolio website I am currently building using React. It showcases my resume, projects, skills, and contact information.
+This is a simple portfolio website I am currently building using React. It showcases my profile, projects, skills, and contact information.
 
 ## Features
 
