@@ -1,0 +1,88 @@
+.projects {
+    padding: 4% 4% 7% 4%;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.heading {
+    font-size: 2.5em;
+    margin-bottom: 3%;
+    color: #333;
+}
+
+.projectsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+    justify-content: center;
+    height: 100%;
+}
+
+
+
+.project {
+    width: 40%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    opacity: 0.9;
+}
+
+.project:hover {
+    transform: scale(1.1) translatey(25px);
+    opacity: 1;
+}
+
+
+.projectImage {
+    width: 100%;
+    height: auto;
+}
+
+.projectName {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.projectDetails {
+    width: 50%;
+}
+
+.additionalImages img {
+    width: 48%;
+    height: auto;
+    margin-right: 10px;
+}
+
+.active {
+    transform: scale(1.1) translatey(25px);
+    background-color: rgba(0);
+    opacity: 1;
+}
+
+.one{
+    display: flex;
+    width: 215%;
+}
+
+.one .skills{
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    margin-left: 2%;
+
+}
+
+.two{
+    display: flex;
+    width: 220%;
+    margin-left: -120%;
+}
+
+.two .skills{
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    margin-left: 2%;
+    margin-right: 8%;
+}
